@@ -1,0 +1,28 @@
+body{
+  font-family: Helvetica;
+}
+h1{
+  color: #90DADA;
+  font-size: 60px;
+}
+input{
+  background: #57C7C7;
+  color: white;
+  font-family: Arial;
+  border-radius: 10px;
+  border: 0px;
+  font-weight:bold;
+  font-size:13px;
+}
+h3{
+  color: #029797;
+  size: 3;
+}
+fieldset, textarea{
+  background: #f4eef7;
+  padding: 6px;
+  border: 1px solid #81499c;
+}
+legend {
+  color: #81499c;
+}

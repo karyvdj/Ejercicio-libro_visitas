@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+  </head>
+  <body>
+    <h1>Articulos</h1>
+    <div id="verComentario">
+      <hr>
+      <label style="font-size:30px; color:#f075b7">Esto comienza ahora...</label>
+      <hr>
+      <label style="font-size:15px;color:purple" >Arrrggg!!!</label>
+      <hr>
+    </div>
+    <h3>Crea tu comentario </h3>
+    <div>
+      <input type="button" value="Texto Grande"  onclick="textoGrande()"/>
+      <input type="button" value="Texto Mediano"  onclick="textoMediano()"/>
+      <input type="button" value="Texto Chico"  onclick="textoChico()"/>
+      <input type="button" value="Color de Texto"  onclick="textoColor()"/>
+      <input type="button" value="Color de fondo"  onclick="fondoColor()"/>
+      <input type="button" value="Alinear Izquierda"  onclick="alinearIzq()"/>
+      <input type="button" value="Centrar"  onclick="alinearCentro()"/>
+      <input type="button" value="Alinear Derecha"  onclick="alinearDerecha()"/>
+    </div>
+    <br>
+    <div>
+      <textarea name="textArea" rows="10" cols="130" placeholder="Comparte tu comentario" id="textoComentario" oninput="previsualizar();"></textarea>
+    </div>
+    <h3>Contenido</h3>
+    <div>
+      <fieldset>
+        <legend> Previsualizar </legend>
+        <p id="previoComentario"> </p>
+      </fieldset>
+      <br>
+      <input type="button" value="ENVIAR" id="enviar" onclick="imprimirComentario()"/>
+    </div>
+    <script src="assets/js/interaccion.js"></script>
+  </body>
+</html>
